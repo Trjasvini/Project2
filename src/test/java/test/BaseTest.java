@@ -22,7 +22,8 @@ public class BaseTest {
 	
 	@BeforeSuite
 	public void initBrowser() throws IOException {
-		//other class
+		//other class this class
+		
 		  WebDriverManager.chromedriver().setup();	
 			//step-1 Launch browser
 		   driver=new ChromeDriver();
